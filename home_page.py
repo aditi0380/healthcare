@@ -21,8 +21,6 @@ import pandas
 #    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 import streamlit.components.v1 as components
-
-# bootstrap 4 collapse example
 components.html(
     """
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -33,7 +31,7 @@ components.html(
     <a class="nav-link active" aria-current="page" href="#">Active</a>
   </li>
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
     <ul class="dropdown-menu">
       <li><a class="dropdown-item" href="#">Action</a></li>
       <li><a class="dropdown-item" href="#">Another action</a></li>
