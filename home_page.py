@@ -9,7 +9,7 @@ with tab1:
    #st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
 
 with tab2:
-   st.header("Menu")
+   #st.header("Menu")
    #st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
    option = st.selectbox(
         'How would you like to be contacted?',
